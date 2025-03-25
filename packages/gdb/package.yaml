@@ -13,7 +13,7 @@ categories:
   - DAP
 
 source:
-  id: pkg:github/ssbssa/gdb@gdb-16.2.90.20250201
+  id: pkg:github/ssbssa/gdb@latest
   asset:
     - target: win_x64
       file: gdb-16.2.90.20250201-x86_64-python.7z

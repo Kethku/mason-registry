@@ -1,6 +1,6 @@
 ---
 name: gdb
-description: Windows build of the gdb debugger.
+description: Unofficial Windows build of the gdb debugger.
 homepage: https://github.com/ssbssa/gdb
 licenses:
   - GPL-2.0

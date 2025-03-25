@@ -1,0 +1,23 @@
+---
+name: gdb
+description: Windows build of the gdb debugger.
+homepage: https://github.com/ssbssa/gdb
+licenses:
+  - GPL-2.0
+languages:
+  - C
+  - C++
+  - Rust
+  - Zig
+categories:
+  - DAP
+
+source:
+  id: pkg:github/gdb/releases@gdb-16.2.90.20250201
+  asset:
+    - target: win_x64
+      file: gdb-16.2.90.20250201-x86_64-python.7z
+      bin: bin/gdb.exe
+
+bin:
+  gdb: "{{source.asset.bin}}"
